@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginUI</class>
+ <widget class="QWidget" name="LoginUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>448</width>
+    <height>331</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>登录</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/GPSWorld/Resources/image/EBIM.ico</normaloff>:/GPSWorld/Resources/image/EBIM.ico</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="fameBack">
+     <property name="styleSheet">
+      <string notr="true">QFrame#fameBack
+{
+background-image: url(:/Login/Resources/login/background.png);
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>1</number>
+     </property>
+     <widget class="QComboBox" name="comb_usrName">
+      <property name="geometry">
+       <rect>
+        <x>88</x>
+        <y>160</y>
+        <width>263</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox#comb_usrName::hover{
+	border-top-color: qlineargradient(spread:pad, x1:0.534, y1:1, x2:0.545, y2:0, stop:0 rgba(36, 132, 238, 255), stop:0.982955 rgba(143, 192, 255, 0));
+	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.506, x2:1, y2:0.511364, stop:0 rgba(36, 132, 238, 255), stop:0.982955 rgba(143, 192, 255, 0));
+	border-bottom-color: qlineargradient(spread:pad, x1:0.517, y1:0, x2:0.5, y2:1, stop:0 rgba(36, 132, 238, 255), stop:0.982955 rgba(143, 192, 255, 0));
+	border-left-color: qlineargradient(spread:pad, x1:1, y1:0.579545, x2:0, y2:0.574, stop:0 rgba(36, 132, 238, 255), stop:0.982955 rgba(143, 192, 255, 0));
+}  
+
+QComboBox#comb_usrName{
+	border-top-color: qlineargradient(spread:pad, x1:0.471273, y1:0.71, x2:0.483, y2:0, stop:0 rgba(191, 191, 191, 255), stop:0.982955 rgba(143, 192, 255, 0));
+	border-right-color: qlineargradient(spread:pad, x1:0.301, y1:0.510682, x2:1, y2:0.522, stop:0 rgba(191, 191, 191, 255), stop:0.982955 rgba(143, 192, 255, 0));
+	border-bottom-color: qlineargradient(spread:pad, x1:0.523, y1:0.294455, x2:0.528, y2:1, stop:0 rgba(191, 191, 191, 255), stop:0.982955 rgba(143, 192, 255, 0));
+	border-left-color: qlineargradient(spread:pad, x1:0.682091, y1:0.544, x2:0, y2:0.557, stop:0 rgba(191, 191, 191, 255), stop:0.982955 rgba(143, 192, 255, 0));
+} </string>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_pwd">
+      <property name="geometry">
+       <rect>
+        <x>88</x>
+        <y>205</y>
+        <width>263</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit#lineEdit_pwd::hover{
+	border-top-color: qlineargradient(spread:pad, x1:0.534, y1:1, x2:0.545, y2:0, stop:0 rgba(36, 132, 238, 255), stop:0.982955 rgba(143, 192, 255, 0));
+	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.506, x2:1, y2:0.511364, stop:0 rgba(36, 132, 238, 255), stop:0.982955 rgba(143, 192, 255, 0));
+	border-bottom-color: qlineargradient(spread:pad, x1:0.517, y1:0, x2:0.5, y2:1, stop:0 rgba(36, 132, 238, 255), stop:0.982955 rgba(143, 192, 255, 0));
+	border-left-color: qlineargradient(spread:pad, x1:1, y1:0.579545, x2:0, y2:0.574, stop:0 rgba(36, 132, 238, 255), stop:0.982955 rgba(143, 192, 255, 0));
+}  
+
+QLineEdit#lineEdit_pwd{
+	border-top-color: qlineargradient(spread:pad, x1:0.471273, y1:0.71, x2:0.483, y2:0, stop:0 rgba(191, 191, 191, 255), stop:0.982955 rgba(143, 192, 255, 0));
+	border-right-color: qlineargradient(spread:pad, x1:0.301, y1:0.510682, x2:1, y2:0.522, stop:0 rgba(191, 191, 191, 255), stop:0.982955 rgba(143, 192, 255, 0));
+	border-bottom-color: qlineargradient(spread:pad, x1:0.523, y1:0.294455, x2:0.528, y2:1, stop:0 rgba(191, 191, 191, 255), stop:0.982955 rgba(143, 192, 255, 0));
+	border-left-color: qlineargradient(spread:pad, x1:0.682091, y1:0.544, x2:0, y2:0.557, stop:0 rgba(191, 191, 191, 255), stop:0.982955 rgba(143, 192, 255, 0));
+	padding-left:3px;
+	padding-right: 25px;
+	font: 9pt &quot;Meiryo&quot;;
+}  
+</string>
+      </property>
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>密码</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_login">
+      <property name="geometry">
+       <rect>
+        <x>88</x>
+        <y>273</y>
+        <width>263</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btn_login:hover{
+border-image: url(:/Login/Resources/login/button_login_hover.png);
+}
+
+QPushButton#btn_login:pressed{
+border-image: url(:/Login/Resources/login/button_login_down.png);
+}
+
+QPushButton#btn_login{
+border-image: url(:/Login/Resources/login/button_login_normal.png);
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>263</width>
+        <height>36</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_min">
+      <property name="geometry">
+       <rect>
+        <x>388</x>
+        <y>0</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btn_min:hover{
+border-image: url(:/Login/Resources/login/min_hover.png);
+}
+
+QPushButton#btn_min:pressed{
+border-image: url(:/Login/Resources/login/min_close.png);
+}
+
+QPushButton#btn_min{
+border-image: url(:/Login/Resources/login/min_normal.png);
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>39</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_close">
+      <property name="geometry">
+       <rect>
+        <x>418</x>
+        <y>0</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btn_close:hover{
+border-image: url(:/Login/Resources/login/close_hover.png);
+}
+
+QPushButton#btn_close:pressed{
+border-image: url(:/Login/Resources/login/close_click.png);
+}
+
+QPushButton#btn_close{
+border-image: url(:/Login/Resources/login/close_normal.png);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>:/Resources/login/btn_close_normal.png</normaloff>:/Resources/login/btn_close_normal.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>39</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkbox_remeberPassword">
+      <property name="geometry">
+       <rect>
+        <x>88</x>
+        <y>249</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QCheckBox#checkbox_remeberPassword::indicator{
+width:15px;
+height:15px;
+border-image: url(:/Login/Resources/login/checkbox_normal.png);
+}
+
+
+QCheckBox#checkbox_remeberPassword::indicator:hover:unchecked{
+border-image: url(:/Login/Resources/login/checkbox_hover.png)
+}
+
+QCheckBox#checkbox_remeberPassword::indicator:checked{
+	border-image: url(:/Login/Resources/login/checkbox_checked.png);
+}
+QCheckBox#checkbox_remeberPassword::indicator:hover:checked{
+	border-image: url(:/Login/Resources/login/checkbox_hold.png);
+}
+
+QCheckBox#checkbox_remeberPassword { color: white }
+</string>
+      </property>
+      <property name="text">
+       <string>记住密码</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkbox_autoLogin">
+      <property name="geometry">
+       <rect>
+        <x>284</x>
+        <y>249</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QCheckBox#checkbox_autoLogin::indicator{
+width:15px;
+height:15px;
+border-image: url(:/Login/Resources/login/checkbox_normal.png);
+}
+
+QCheckBox#checkbox_autoLogin::indicator:hover:unchecked{
+border-image: url(:/Login/Resources/login/checkbox_hover.png)
+}
+
+QCheckBox#checkbox_autoLogin::indicator:checked{
+	border-image: url(:/Login/Resources/login/checkbox_checked.png);
+}
+QCheckBox#checkbox_autoLogin::indicator:hover:checked{
+	border-image: url(:/Login/Resources/login/checkbox_hold.png);
+}
+
+QCheckBox#checkbox_autoLogin { color: white }</string>
+      </property>
+      <property name="text">
+       <string>自动登录</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_register">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>167</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btn_register:hover{
+border-image: url(:/Login/Resources/login/register_hover.png);
+}
+
+QPushButton#btn_register:pressed{
+border-image: url(:/Login/Resources/login/register_press.png);
+}
+
+QPushButton#btn_register{
+border-image: url(:/Login/Resources/login/register_pressnormal.png);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>51</width>
+        <height>16</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_findPassword">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>212</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btn_findPassword:hover{
+border-image: url(:/Login/Resources/login/findpassword_hover.png);
+}
+
+QPushButton#btn_findPassword:pressed{
+border-image: url(:/Login/Resources/login/findpassword_press.png);
+}
+
+QPushButton#btn_findPassword{
+border-image: url(:/Login/Resources/login/findpassword_normal.png);
+}
+
+
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>51</width>
+        <height>16</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_setting">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>283</y>
+        <width>31</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btn_setting:hover{
+border-image: url(:/Login/Resources/login/btn_set_hover.png);
+}
+
+QPushButton#btn_setting:pressed{
+border-image: url(:/Login/Resources/login/btn_set_press.png);
+}
+
+QPushButton#btn_setting{
+border-image: url(:/Login/Resources/login/btn_set_hover.png);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>31</width>
+        <height>34</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="GPSWorld.qrc"/>
+ </resources>
+ <connections/>
+</ui>

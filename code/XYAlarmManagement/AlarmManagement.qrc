@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/AlarmManagement">
+        <file>Resources/image/alarmmonitor.png</file>
+        <file>Resources/image/alarmrulesetting.png</file>
+        <file>Resources/image/alarmsetting.png</file>
+        <file>Resources/image/alarmstatistics.png</file>
+        <file>Resources/image/alarmsuper.png</file>
+        <file>Resources/image/areaalarmsetting.png</file>
+        <file>Resources/image/basealarmsetting.png</file>
+        <file>Resources/image/keypointalarmsetting.png</file>
+        <file>Resources/image/offlinealarmsetting.png</file>
+        <file>Resources/image/speedalarmSetting.png</file>
+    </qresource>
+</RCC>

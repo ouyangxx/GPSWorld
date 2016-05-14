@@ -1,0 +1,75 @@
+﻿Build started 2016/5/12 13:41:56.
+     1>Project "G:\svn_home\new_gps\code\XYAlarmManagement\XYAlarmManagement.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing XYAlarmManagement.h...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_AlarmManagement.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_AlarmManagement.cpp, GeneratedFiles\Release\moc_AlarmManagement.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_AlarmMonitor.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_AlarmMonitor.cpp, GeneratedFiles\Release\moc_AlarmMonitor.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_AlarmRuleSetting.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_AlarmRuleSetting.cpp, GeneratedFiles\Release\moc_AlarmRuleSetting.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_AlarmStatistics.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_AlarmStatistics.cpp, GeneratedFiles\Release\moc_AlarmStatistics.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_AlarmSuper.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_AlarmSuper.cpp, GeneratedFiles\Release\moc_AlarmSuper.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_AreaAlarmSetting.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_AreaAlarmSetting.cpp, GeneratedFiles\Release\moc_AreaAlarmSetting.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_BaseAlarmSetting.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_BaseAlarmSetting.cpp, GeneratedFiles\Release\moc_BaseAlarmSetting.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_KeypointAlarmSetting.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_KeypointAlarmSetting.cpp, GeneratedFiles\Release\moc_KeypointAlarmSetting.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_OfflineAlarmSetting.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_OfflineAlarmSetting.cpp, GeneratedFiles\Release\moc_OfflineAlarmSetting.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_SpeedAlarmSetting.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_SpeedAlarmSetting.cpp, GeneratedFiles\Release\moc_SpeedAlarmSetting.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_XYAlarmManagement.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_XYAlarmManagement.cpp, GeneratedFiles\Release\moc_XYAlarmManagement.cpp.
+       ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\Qt\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Release /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtCore /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtGui /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtWidgets /I..\..\inc /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D XYALARMMANAGEMENT_LIB /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x86_vc12_unicode_release\\" /Fd"x86_vc12_unicode_release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AlarmManagement.cpp AlarmMonitor.cpp AlarmRuleSetting.cpp AlarmStatistics.cpp AlarmSuper.cpp AreaAlarmSetting.cpp BaseAlarmSetting.cpp GeneratedFiles\Release\moc_AlarmManagement.cpp GeneratedFiles\Release\moc_AlarmMonitor.cpp GeneratedFiles\Release\moc_AlarmRuleSetting.cpp GeneratedFiles\Release\moc_AlarmStatistics.cpp GeneratedFiles\Release\moc_AlarmSuper.cpp GeneratedFiles\Release\moc_AreaAlarmSetting.cpp GeneratedFiles\Release\moc_BaseAlarmSetting.cpp GeneratedFiles\Release\moc_KeypointAlarmSetting.cpp GeneratedFiles\Release\moc_OfflineAlarmSetting.cpp GeneratedFiles\Release\moc_SpeedAlarmSetting.cpp GeneratedFiles\Release\moc_XYAlarmManagement.cpp KeypointAlarmSetting.cpp OfflineAlarmSetting.cpp SpeedAlarmSetting.cpp XYAlarmManagement.cpp
+         AlarmManagement.cpp
+         AlarmMonitor.cpp
+         AlarmRuleSetting.cpp
+         AlarmStatistics.cpp
+         AlarmSuper.cpp
+         AreaAlarmSetting.cpp
+         BaseAlarmSetting.cpp
+         moc_AlarmManagement.cpp
+         moc_AlarmMonitor.cpp
+         moc_AlarmRuleSetting.cpp
+         moc_AlarmStatistics.cpp
+         moc_AlarmSuper.cpp
+         moc_AreaAlarmSetting.cpp
+         moc_BaseAlarmSetting.cpp
+         moc_KeypointAlarmSetting.cpp
+         moc_OfflineAlarmSetting.cpp
+         moc_SpeedAlarmSetting.cpp
+         moc_XYAlarmManagement.cpp
+         KeypointAlarmSetting.cpp
+         OfflineAlarmSetting.cpp
+         Generating Code...
+         Compiling...
+         SpeedAlarmSetting.cpp
+         XYAlarmManagement.cpp
+         Generating Code...
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\Qt\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Release /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtCore /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtGui /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtWidgets /I..\..\inc /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D XYALARMMANAGEMENT_LIB /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x86_vc12_unicode_release\\" /Fd"x86_vc12_unicode_release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_AlarmManagement.cpp
+         qrc_AlarmManagement.cpp
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\x86_vc12_unicode_release\\XYAlarmManagement.dll" /NOLOGO /LIBPATH:F:\Qt\Qt5.5.0\5.5\msvc2013\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"..\..\bin\x86_vc12_unicode_release\XYAlarmManagement.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\lib\x86_vc12_unicode_release\XYAlarmManagement.lib" /MACHINE:X86 /SAFESEH /DLL x86_vc12_unicode_release\AlarmManagement.obj
+         x86_vc12_unicode_release\AlarmMonitor.obj
+         x86_vc12_unicode_release\AlarmRuleSetting.obj
+         x86_vc12_unicode_release\AlarmStatistics.obj
+         x86_vc12_unicode_release\AlarmSuper.obj
+         x86_vc12_unicode_release\AreaAlarmSetting.obj
+         x86_vc12_unicode_release\BaseAlarmSetting.obj
+         x86_vc12_unicode_release\qrc_AlarmManagement.obj
+         x86_vc12_unicode_release\moc_AlarmManagement.obj
+         x86_vc12_unicode_release\moc_AlarmMonitor.obj
+         x86_vc12_unicode_release\moc_AlarmRuleSetting.obj
+         x86_vc12_unicode_release\moc_AlarmStatistics.obj
+         x86_vc12_unicode_release\moc_AlarmSuper.obj
+         x86_vc12_unicode_release\moc_AreaAlarmSetting.obj
+         x86_vc12_unicode_release\moc_BaseAlarmSetting.obj
+         x86_vc12_unicode_release\moc_KeypointAlarmSetting.obj
+         x86_vc12_unicode_release\moc_OfflineAlarmSetting.obj
+         x86_vc12_unicode_release\moc_SpeedAlarmSetting.obj
+         x86_vc12_unicode_release\moc_XYAlarmManagement.obj
+         x86_vc12_unicode_release\KeypointAlarmSetting.obj
+         x86_vc12_unicode_release\OfflineAlarmSetting.obj
+         x86_vc12_unicode_release\SpeedAlarmSetting.obj
+         x86_vc12_unicode_release\XYAlarmManagement.obj
+            Creating library ..\..\lib\x86_vc12_unicode_release\XYAlarmManagement.lib and object ..\..\lib\x86_vc12_unicode_release\XYAlarmManagement.exp
+         XYAlarmManagement.vcxproj -> G:\svn_home\new_gps\code\XYAlarmManagement\..\..\bin\x86_vc12_unicode_release\XYAlarmManagement.dll
+     1>Done Building Project "G:\svn_home\new_gps\code\XYAlarmManagement\XYAlarmManagement.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:28.69

@@ -1,0 +1,98 @@
+﻿Build started 2016/5/14 9:56:44.
+     1>Project "G:\svn_home\new_gps\code\XYIntelligentMonitor\XYIntelligentMonitor.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>CustomBuild:
+         Moc'ing CurveDiagram.h...
+         Moc'ing BottomTableCarMonitor.h...
+         Moc'ing BottomTableTracking.h...
+         Moc'ing XYIntelligentMonitor.h...
+         Moc'ing HisTrack.h...
+         Moc'ing VideoMonitor.h...
+         Moc'ing GoverRegulation.h...
+         Moc'ing IntelligentMonitor.h...
+         Moc'ing LeftNaviMonitorList.h...
+         Moc'ing LeftNaviFactory.h...
+         Moc'ing LeftNaviMap.h...
+         Uic'ing HisTrack.ui...
+         Uic'ing CurveDiagram.ui...
+         Uic'ing VideoMonitor.ui...
+         Uic'ing GoverRegulation.ui...
+         Uic'ing IntelligentMonitor.ui...
+         Rcc'ing IntelligentMonitor.qrc...
+         Uic'ing LeftNaviMonitorList.ui...
+         Uic'ing LeftNaviFactory.ui...
+         Uic'ing LeftNaviMap.ui...
+         Uic'ing BottomTableCarMonitor.ui...
+         Uic'ing BottomTableTracking.ui...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_BottomTableCarMonitor.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_BottomTableCarMonitor.cpp, GeneratedFiles\Release\moc_BottomTableCarMonitor.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_BottomTableTracking.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_BottomTableTracking.cpp, GeneratedFiles\Release\moc_BottomTableTracking.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_CurveDiagram.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_CurveDiagram.cpp, GeneratedFiles\Release\moc_CurveDiagram.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_GoverRegulation.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_GoverRegulation.cpp, GeneratedFiles\Release\moc_GoverRegulation.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_HisTrack.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_HisTrack.cpp, GeneratedFiles\Release\moc_HisTrack.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_IntelligentMonitor.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_IntelligentMonitor.cpp, GeneratedFiles\Release\moc_IntelligentMonitor.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_LeftNaviFactory.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_LeftNaviFactory.cpp, GeneratedFiles\Release\moc_LeftNaviFactory.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_LeftNaviMap.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_LeftNaviMap.cpp, GeneratedFiles\Release\moc_LeftNaviMap.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_LeftNaviMonitorList.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_LeftNaviMonitorList.cpp, GeneratedFiles\Release\moc_LeftNaviMonitorList.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_VideoMonitor.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_VideoMonitor.cpp, GeneratedFiles\Release\moc_VideoMonitor.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_XYIntelligentMonitor.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_XYIntelligentMonitor.cpp, GeneratedFiles\Release\moc_XYIntelligentMonitor.cpp.
+       ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\Qt\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Debug /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtCore /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtGui /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtWidgets /I..\..\inc /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtNetwork /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtSql /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\ActiveQt /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D XYINTELLIGENTMONITOR_LIB /D QT_NETWORK_LIB /D QT_SQL_LIB /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x86_vc12_unicode_debug\\" /Fd"x86_vc12_unicode_debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BottomTableCarMonitor.cpp BottomTableTracking.cpp CurveDiagram.cpp GeneratedFiles\Debug\moc_BottomTableCarMonitor.cpp GeneratedFiles\Debug\moc_BottomTableTracking.cpp GeneratedFiles\Debug\moc_CurveDiagram.cpp GeneratedFiles\Debug\moc_GoverRegulation.cpp GeneratedFiles\Debug\moc_HisTrack.cpp GeneratedFiles\Debug\moc_IntelligentMonitor.cpp GeneratedFiles\Debug\moc_LeftNaviFactory.cpp GeneratedFiles\Debug\moc_LeftNaviMap.cpp GeneratedFiles\Debug\moc_LeftNaviMonitorList.cpp GeneratedFiles\Debug\moc_VideoMonitor.cpp GeneratedFiles\Debug\moc_XYIntelligentMonitor.cpp GoverRegulation.cpp HisTrack.cpp IntelligentMonitor.cpp LeftNaviFactory.cpp LeftNaviMap.cpp LeftNaviMonitorList.cpp VideoMonitor.cpp XYIntelligentMonitor.cpp
+         BottomTableCarMonitor.cpp
+         BottomTableTracking.cpp
+         CurveDiagram.cpp
+         moc_BottomTableCarMonitor.cpp
+         moc_BottomTableTracking.cpp
+         moc_CurveDiagram.cpp
+         moc_GoverRegulation.cpp
+         moc_HisTrack.cpp
+         moc_IntelligentMonitor.cpp
+         moc_LeftNaviFactory.cpp
+         moc_LeftNaviMap.cpp
+         moc_LeftNaviMonitorList.cpp
+         moc_VideoMonitor.cpp
+         moc_XYIntelligentMonitor.cpp
+         GoverRegulation.cpp
+         HisTrack.cpp
+         IntelligentMonitor.cpp
+         LeftNaviFactory.cpp
+         LeftNaviMap.cpp
+         LeftNaviMonitorList.cpp
+         Generating Code...
+         Compiling...
+         VideoMonitor.cpp
+         XYIntelligentMonitor.cpp
+         Generating Code...
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\Qt\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Debug /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtCore /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtGui /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtWidgets /I..\..\inc /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtNetwork /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtSql /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\ActiveQt /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D XYINTELLIGENTMONITOR_LIB /D QT_NETWORK_LIB /D QT_SQL_LIB /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x86_vc12_unicode_debug\\" /Fd"x86_vc12_unicode_debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_IntelligentMonitor.cpp
+         qrc_IntelligentMonitor.cpp
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\x86_vc12_unicode_debug\\XYIntelligentMonitor.dll" /NOLOGO /LIBPATH:F:\Qt\Qt5.5.0\5.5\msvc2013\lib /LIBPATH:..\..\lib\x86_vc12_unicode_debug qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5Networkd.lib HDataManager.lib Qt5Sqld.lib HClientEngine.lib HMaps.lib HAlarmEngine.lib VelocityLevel.lib HVehicleReport.lib ProgressBarManager.lib ExcelOperator.lib Qt5AxContainerd.lib Qt5AxBased.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\x86_vc12_unicode_debug\XYIntelligentMonitor.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\lib\x86_vc12_unicode_debug\XYIntelligentMonitor.lib" /MACHINE:X86 /SAFESEH /DLL x86_vc12_unicode_debug\BottomTableCarMonitor.obj
+         x86_vc12_unicode_debug\BottomTableTracking.obj
+         x86_vc12_unicode_debug\CurveDiagram.obj
+         x86_vc12_unicode_debug\moc_BottomTableCarMonitor.obj
+         x86_vc12_unicode_debug\moc_BottomTableTracking.obj
+         x86_vc12_unicode_debug\moc_CurveDiagram.obj
+         x86_vc12_unicode_debug\moc_GoverRegulation.obj
+         x86_vc12_unicode_debug\moc_HisTrack.obj
+         x86_vc12_unicode_debug\moc_IntelligentMonitor.obj
+         x86_vc12_unicode_debug\moc_LeftNaviFactory.obj
+         x86_vc12_unicode_debug\moc_LeftNaviMap.obj
+         x86_vc12_unicode_debug\moc_LeftNaviMonitorList.obj
+         x86_vc12_unicode_debug\moc_VideoMonitor.obj
+         x86_vc12_unicode_debug\moc_XYIntelligentMonitor.obj
+         x86_vc12_unicode_debug\qrc_IntelligentMonitor.obj
+         x86_vc12_unicode_debug\GoverRegulation.obj
+         x86_vc12_unicode_debug\HisTrack.obj
+         x86_vc12_unicode_debug\IntelligentMonitor.obj
+         x86_vc12_unicode_debug\LeftNaviFactory.obj
+         x86_vc12_unicode_debug\LeftNaviMap.obj
+         x86_vc12_unicode_debug\LeftNaviMonitorList.obj
+         x86_vc12_unicode_debug\VideoMonitor.obj
+         x86_vc12_unicode_debug\XYIntelligentMonitor.obj
+            Creating library ..\..\lib\x86_vc12_unicode_debug\XYIntelligentMonitor.lib and object ..\..\lib\x86_vc12_unicode_debug\XYIntelligentMonitor.exp
+         XYIntelligentMonitor.vcxproj -> G:\svn_home\new_gps\code\XYIntelligentMonitor\..\..\bin\x86_vc12_unicode_debug\XYIntelligentMonitor.dll
+     1>Done Building Project "G:\svn_home\new_gps\code\XYIntelligentMonitor\XYIntelligentMonitor.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:37.85

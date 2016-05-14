@@ -1,0 +1,11 @@
+﻿Build started 2016/5/12 14:48:15.
+     1>Project "G:\svn_home\new_gps\code\ExcelOperator\ExcelOperator.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>Link:
+         ExcelOperator.vcxproj -> G:\svn_home\new_gps\code\ExcelOperator\..\..\bin\x86_vc12_unicode_debug\ExcelOperator.dll
+     1>Done Building Project "G:\svn_home\new_gps\code\ExcelOperator\ExcelOperator.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.09

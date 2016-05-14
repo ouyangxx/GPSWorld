@@ -1,0 +1,12 @@
+#ifndef HDATAMANAGER_GLOBAL_H
+#define HDATAMANAGER_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef HDATAMANAGER_LIB
+# define HDATAMANAGER_EXPORT Q_DECL_EXPORT
+#else
+# define HDATAMANAGER_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // HDATAMANAGER_GLOBAL_H

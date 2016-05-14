@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/IntelligentMonitor">
+        <file>Resources/image/car.png</file>
+        <file>Resources/image/company.png</file>
+        <file>Resources/image/srch_1.png</file>
+        <file>Resources/image/srch_2.png</file>
+        <file>Resources/image/srch_3.png</file>
+        <file>Resources/image/navi_1.png</file>
+        <file>Resources/image/navi_2.png</file>
+        <file>Resources/image/navi_3.png</file>
+        <file>Resources/image/navi_11.png</file>
+        <file>Resources/image/navi_22.png</file>
+        <file>Resources/image/navi_33.png</file>
+        <file>Resources/image/map_circle.png</file>
+        <file>Resources/image/map_distance.png</file>
+        <file>Resources/image/map_duobianxing.png</file>
+        <file>Resources/image/map_exitEdit.png</file>
+        <file>Resources/image/map_juxing.png</file>
+        <file>Resources/image/map_model.png</file>
+        <file>Resources/image/map_point.png</file>
+        <file>Resources/image/map_refresh.png</file>
+        <file>Resources/image/map_tuceng.png</file>
+        <file>Resources/image/map_zhexian.png</file>
+        <file>Resources/image/array_down.png</file>
+        <file>Resources/image/excel.png</file>
+    </qresource>
+</RCC>

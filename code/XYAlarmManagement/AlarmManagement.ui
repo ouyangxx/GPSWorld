@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AlarmManagement</class>
+ <widget class="QWidget" name="AlarmManagement">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1096</width>
+    <height>613</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>AlarmManagement</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#AlarmManagement {
+	background-color: rgb(207,228,249);
+}
+</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QSplitter" name="splitter">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QTreeWidget" name="treeWidget">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>300</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTreeWidget#treeWidget{ 
+	background-color:rgb(207,228,249);
+}
+QTreeWidget#treeWidget:item{
+	height:40px;
+	border: 1px dashed rgb(103,114,124);
+	color: #000000;
+	border-style: none none dashed none;  
+	border-radius:0px;  
+	background-color:rgb(207,228,249);
+}
+
+QTreeWidget#treeWidget:item:hover{
+	background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(206,234,247), stop:1 #4F94CD);
+}
+
+QTreeWidget#treeWidget:item:pressed
+{
+	background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #1B89CA, stop:1 #4F94CD);
+
+}</string>
+      </property>
+      <column>
+       <property name="text">
+        <string>报警管理</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+       <property name="background">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+      </column>
+      <item>
+       <property name="text">
+        <string>报警设置</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="icon">
+        <iconset resource="AlarmManagement.qrc">
+         <normaloff>:/AlarmManagement/Resources/image/alarmsetting.png</normaloff>:/AlarmManagement/Resources/image/alarmsetting.png</iconset>
+       </property>
+       <item>
+        <property name="text">
+         <string>基础报警设置</string>
+        </property>
+        <property name="icon">
+         <iconset resource="AlarmManagement.qrc">
+          <normaloff>:/AlarmManagement/Resources/image/basealarmsetting.png</normaloff>:/AlarmManagement/Resources/image/basealarmsetting.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>进出区域报警设置</string>
+        </property>
+        <property name="icon">
+         <iconset resource="AlarmManagement.qrc">
+          <normaloff>:/AlarmManagement/Resources/image/areaalarmsetting.png</normaloff>:/AlarmManagement/Resources/image/areaalarmsetting.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>离线报警设置</string>
+        </property>
+        <property name="icon">
+         <iconset resource="AlarmManagement.qrc">
+          <normaloff>:/AlarmManagement/Resources/image/offlinealarmsetting.png</normaloff>:/AlarmManagement/Resources/image/offlinealarmsetting.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>高速低速报警设置</string>
+        </property>
+        <property name="icon">
+         <iconset resource="AlarmManagement.qrc">
+          <normaloff>:/AlarmManagement/Resources/image/speedalarmSetting.png</normaloff>:/AlarmManagement/Resources/image/speedalarmSetting.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>关键点报警设置</string>
+        </property>
+        <property name="icon">
+         <iconset resource="AlarmManagement.qrc">
+          <normaloff>:/AlarmManagement/Resources/image/keypointalarmsetting.png</normaloff>:/AlarmManagement/Resources/image/keypointalarmsetting.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>报警通知规则设置</string>
+        </property>
+        <property name="icon">
+         <iconset resource="AlarmManagement.qrc">
+          <normaloff>:/AlarmManagement/Resources/image/alarmrulesetting.png</normaloff>:/AlarmManagement/Resources/image/alarmrulesetting.png</iconset>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>报警监控</string>
+       </property>
+       <property name="icon">
+        <iconset resource="AlarmManagement.qrc">
+         <normaloff>:/AlarmManagement/Resources/image/alarmmonitor.png</normaloff>:/AlarmManagement/Resources/image/alarmmonitor.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>报警督办</string>
+       </property>
+       <property name="icon">
+        <iconset resource="AlarmManagement.qrc">
+         <normaloff>:/AlarmManagement/Resources/image/alarmsuper.png</normaloff>:/AlarmManagement/Resources/image/alarmsuper.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>报警统计</string>
+       </property>
+       <property name="icon">
+        <iconset resource="AlarmManagement.qrc">
+         <normaloff>:/AlarmManagement/Resources/image/alarmstatistics.png</normaloff>:/AlarmManagement/Resources/image/alarmstatistics.png</iconset>
+       </property>
+      </item>
+     </widget>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="styleSheet">
+       <string notr="true">QTabBar::tab {
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+	color: #F0F0F0;
+	min-width: 60px;
+	min-height: 20px;
+	padding: 3px 8px 3px 8px;
+	margin:1px;
+	background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #5CACEE, stop:1 #4F94CD); 
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+	background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #1B89CA, stop:1 #1077B5); 
+}
+</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="AlarmManagement.qrc"/>
+ </resources>
+ <connections/>
+</ui>

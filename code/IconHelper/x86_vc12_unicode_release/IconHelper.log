@@ -1,0 +1,17 @@
+﻿Build started 2016/5/12 13:42:38.
+     1>Project "G:\svn_home\new_gps\code\IconHelper\IconHelper.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\Qt\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Release /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtCore /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtGui /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtWidgets /I..\..\inc /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D ICONHELPER_LIB /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x86_vc12_unicode_release\\" /Fd"x86_vc12_unicode_release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_IconHelper.cpp
+         qrc_IconHelper.cpp
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\Qt\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Release /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtCore /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtGui /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtWidgets /I..\..\inc /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D ICONHELPER_LIB /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x86_vc12_unicode_release\\" /Fd"x86_vc12_unicode_release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt IconHelper.cpp
+         IconHelper.cpp
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\x86_vc12_unicode_release\\IconHelper.dll" /NOLOGO /LIBPATH:F:\Qt\Qt5.5.0\5.5\msvc2013\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"..\..\bin\x86_vc12_unicode_release\IconHelper.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\lib\x86_vc12_unicode_release\IconHelper.lib" /MACHINE:X86 /SAFESEH /DLL x86_vc12_unicode_release\qrc_IconHelper.obj
+         x86_vc12_unicode_release\IconHelper.obj
+            Creating library ..\..\lib\x86_vc12_unicode_release\IconHelper.lib and object ..\..\lib\x86_vc12_unicode_release\IconHelper.exp
+         IconHelper.vcxproj -> G:\svn_home\new_gps\code\IconHelper\..\..\bin\x86_vc12_unicode_release\IconHelper.dll
+     1>Done Building Project "G:\svn_home\new_gps\code\IconHelper\IconHelper.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.12

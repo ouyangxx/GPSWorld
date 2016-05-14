@@ -1,0 +1,17 @@
+﻿Build started 2016/5/13 17:58:02.
+     1>Project "G:\svn_home\new_gps\code\HDataManager\HDataManager.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_HDataManager.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_HDataManager.cpp, GeneratedFiles\Release\moc_HDataManager.cpp.
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\Qt\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Debug /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtCore /I..\..\inc /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtGui /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtWidgets /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtNetwork /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtSql /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D HDATAMANAGER_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_NETWORK_LIB /D QT_SQL_LIB /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x86_vc12_unicode_debug\\" /Fd"x86_vc12_unicode_debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt HDataManager.cpp
+         HDataManager.cpp
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\x86_vc12_unicode_debug\\HDataManager.dll" /NOLOGO /LIBPATH:F:\Qt\Qt5.5.0\5.5\msvc2013\lib /LIBPATH:..\..\lib\x86_vc12_unicode_debug qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5Networkd.lib Qt5Sqld.lib HClientEngine.lib HMaps.lib HAlarmEngine.lib VelocityLevel.lib HVehicleReport.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\x86_vc12_unicode_debug\HDataManager.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\lib\x86_vc12_unicode_debug\HDataManager.lib" /MACHINE:X86 /SAFESEH /DLL x86_vc12_unicode_debug\moc_HDataManager.obj
+         x86_vc12_unicode_debug\HDataManager.obj
+         HDataManager.vcxproj -> G:\svn_home\new_gps\code\HDataManager\..\..\bin\x86_vc12_unicode_debug\HDataManager.dll
+     1>Done Building Project "G:\svn_home\new_gps\code\HDataManager\HDataManager.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.90

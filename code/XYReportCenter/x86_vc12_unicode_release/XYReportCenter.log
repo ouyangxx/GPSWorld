@@ -1,0 +1,30 @@
+﻿Build started 2016/5/12 13:40:42.
+     1>Project "G:\svn_home\new_gps\code\XYReportCenter\XYReportCenter.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing XYReportCenter.h...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_BaseReport.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_BaseReport.cpp, GeneratedFiles\Release\moc_BaseReport.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_UsrReport.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_UsrReport.cpp, GeneratedFiles\Release\moc_UsrReport.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_XYReportCenter.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_XYReportCenter.cpp, GeneratedFiles\Release\moc_XYReportCenter.cpp.
+       ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\Qt\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Release /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtCore /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtGui /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtWidgets /I..\..\inc /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D XYREPORTCENTER_LIB /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x86_vc12_unicode_release\\" /Fd"x86_vc12_unicode_release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BaseReport.cpp GeneratedFiles\Release\moc_BaseReport.cpp GeneratedFiles\Release\moc_UsrReport.cpp GeneratedFiles\Release\moc_XYReportCenter.cpp UsrReport.cpp XYReportCenter.cpp
+         BaseReport.cpp
+         moc_BaseReport.cpp
+         moc_UsrReport.cpp
+         moc_XYReportCenter.cpp
+         UsrReport.cpp
+         XYReportCenter.cpp
+         Generating Code...
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\x86_vc12_unicode_release\\XYReportCenter.dll" /NOLOGO /LIBPATH:F:\Qt\Qt5.5.0\5.5\msvc2013\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"..\..\bin\x86_vc12_unicode_release\XYReportCenter.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\lib\x86_vc12_unicode_release\XYReportCenter.lib" /MACHINE:X86 /SAFESEH /DLL x86_vc12_unicode_release\BaseReport.obj
+         x86_vc12_unicode_release\moc_BaseReport.obj
+         x86_vc12_unicode_release\moc_UsrReport.obj
+         x86_vc12_unicode_release\moc_XYReportCenter.obj
+         x86_vc12_unicode_release\UsrReport.obj
+         x86_vc12_unicode_release\XYReportCenter.obj
+            Creating library ..\..\lib\x86_vc12_unicode_release\XYReportCenter.lib and object ..\..\lib\x86_vc12_unicode_release\XYReportCenter.exp
+         XYReportCenter.vcxproj -> G:\svn_home\new_gps\code\XYReportCenter\..\..\bin\x86_vc12_unicode_release\XYReportCenter.dll
+     1>Done Building Project "G:\svn_home\new_gps\code\XYReportCenter\XYReportCenter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.52

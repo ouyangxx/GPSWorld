@@ -1,0 +1,53 @@
+<RCC>
+    <qresource prefix="/GPSWorld">
+        <file>Resources/image/basicmanager.png</file>
+        <file>Resources/image/engineermanager.png</file>
+        <file>Resources/image/intelligence.png</file>
+        <file>Resources/image/reportcenter.png</file>
+        <file>Resources/image/warningButton.png</file>
+        <file>Resources/image/GPSWorld.png</file>
+        <file>Resources/image/GPS.png</file>
+        <file>Resources/image/GPS.ico</file>
+        <file>Resources/image/curve.png</file>
+        <file>Resources/image/govn.png</file>
+        <file>Resources/image/track.png</file>
+        <file>Resources/image/video.png</file>
+        <file>Resources/image/alarmmonitor.png</file>
+        <file>Resources/image/alarmsetting.png</file>
+        <file>Resources/image/alarmstatistics.png</file>
+        <file>Resources/image/Alarmsuper.png</file>
+        <file>Resources/image/report.png</file>
+    </qresource>
+    <qresource prefix="/Login">
+        <file>Resources/login/avatar.png</file>
+        <file>Resources/login/btn_set_hover.png</file>
+        <file>Resources/login/btn_set_normal.png</file>
+        <file>Resources/login/btn_set_press.png</file>
+        <file>Resources/login/button_login_down.png</file>
+        <file>Resources/login/button_login_hover.png</file>
+        <file>Resources/login/button_login_normal.png</file>
+        <file>Resources/login/checkbox_checked.png</file>
+        <file>Resources/login/checkbox_hold.png</file>
+        <file>Resources/login/checkbox_hover.png</file>
+        <file>Resources/login/checkbox_normal.png</file>
+        <file>Resources/login/close_click.png</file>
+        <file>Resources/login/close_hover.png</file>
+        <file>Resources/login/close_normal.png</file>
+        <file>Resources/login/findpassword_hover.png</file>
+        <file>Resources/login/findpassword_normal.png</file>
+        <file>Resources/login/findpassword_press.png</file>
+        <file>Resources/login/loading.gif</file>
+        <file>Resources/login/logining.gif</file>
+        <file>Resources/login/min_close.png</file>
+        <file>Resources/login/min_hover.png</file>
+        <file>Resources/login/min_normal.png</file>
+        <file>Resources/login/radio_check.png</file>
+        <file>Resources/login/radio_check_hover.png</file>
+        <file>Resources/login/radio_normal.png</file>
+        <file>Resources/login/radio_normal_hover.png</file>
+        <file>Resources/login/register_hover.png</file>
+        <file>Resources/login/register_press.png</file>
+        <file>Resources/login/register_pressnormal.png</file>
+        <file>Resources/login/background.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,28 @@
+﻿Build started 2016/5/13 0:42:09.
+     1>Project "G:\svn_home\new_gps\code\XYBaseManagement\XYBaseManagement.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>CustomBuild:
+         Moc'ing BaseManagement.h...
+         Moc'ing XYBaseManagement.h...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_BaseManagement.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_BaseManagement.cpp, GeneratedFiles\Release\moc_BaseManagement.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_XYBaseManagement.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_XYBaseManagement.cpp, GeneratedFiles\Release\moc_XYBaseManagement.cpp.
+       ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\Qt\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Debug /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtCore /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtGui /IF:\Qt\Qt5.5.0\5.5\msvc2013\include\QtWidgets /I..\..\inc /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D XYBASEMANAGEMENT_LIB /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x86_vc12_unicode_debug\\" /Fd"x86_vc12_unicode_debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BaseManagement.cpp GeneratedFiles\Debug\moc_BaseManagement.cpp GeneratedFiles\Debug\moc_XYBaseManagement.cpp XYBaseManagement.cpp
+         BaseManagement.cpp
+         moc_BaseManagement.cpp
+         moc_XYBaseManagement.cpp
+         XYBaseManagement.cpp
+         Generating Code...
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\x86_vc12_unicode_debug\\XYBaseManagement.dll" /NOLOGO /LIBPATH:F:\Qt\Qt5.5.0\5.5\msvc2013\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\x86_vc12_unicode_debug\XYBaseManagement.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\lib\x86_vc12_unicode_debug\XYBaseManagement.lib" /MACHINE:X86 /SAFESEH /DLL x86_vc12_unicode_debug\BaseManagement.obj
+         x86_vc12_unicode_debug\moc_BaseManagement.obj
+         x86_vc12_unicode_debug\moc_XYBaseManagement.obj
+         x86_vc12_unicode_debug\XYBaseManagement.obj
+            Creating library ..\..\lib\x86_vc12_unicode_debug\XYBaseManagement.lib and object ..\..\lib\x86_vc12_unicode_debug\XYBaseManagement.exp
+         XYBaseManagement.vcxproj -> G:\svn_home\new_gps\code\XYBaseManagement\..\..\bin\x86_vc12_unicode_debug\XYBaseManagement.dll
+     1>Done Building Project "G:\svn_home\new_gps\code\XYBaseManagement\XYBaseManagement.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.77

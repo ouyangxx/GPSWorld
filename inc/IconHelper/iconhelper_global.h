@@ -1,0 +1,12 @@
+#ifndef ICONHELPER_GLOBAL_H
+#define ICONHELPER_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef ICONHELPER_LIB
+# define ICONHELPER_EXPORT Q_DECL_EXPORT
+#else
+# define ICONHELPER_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // ICONHELPER_GLOBAL_H

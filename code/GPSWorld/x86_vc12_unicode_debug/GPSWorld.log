@@ -1,0 +1,19 @@
+﻿Build started 2016/5/14 9:57:57.
+     1>Project "G:\svn_home\new_gps\code\GPSWorld\GPSWorld.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_GPSWorld.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_GPSWorld.cpp, GeneratedFiles\Release\moc_GPSWorld.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_LoginUI.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_LoginUI.cpp, GeneratedFiles\Release\moc_LoginUI.cpp.
+     1>Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\x86_vc12_unicode_debug\\GPSWorld.exe" /NOLOGO /LIBPATH:F:\Qt\Qt5.5.0\5.5\msvc2013\lib /LIBPATH:..\..\lib\x86_vc12_unicode_debug qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5Networkd.lib Qt5Sqld.lib XYIntelligentMonitor.lib XYAlarmManagement.lib XYEngineerManagement.lib XYBaseManagement.lib XYReportCenter.lib IconHelper.lib HDataManager.lib HClientEngine.lib HMaps.lib HAlarmEngine.lib VelocityLevel.lib HVehicleReport.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\x86_vc12_unicode_debug\GPSWorld.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\x86_vc12_unicode_debug\GPSWorld.lib" /MACHINE:X86 /SAFESEH x86_vc12_unicode_debug\moc_GPSWorld.obj
+         x86_vc12_unicode_debug\moc_LoginUI.obj
+         x86_vc12_unicode_debug\qrc_GPSWorld.obj
+         x86_vc12_unicode_debug\GPSWorld.obj
+         x86_vc12_unicode_debug\LoginUI.obj
+         x86_vc12_unicode_debug\main.obj
+         GPSWorld.vcxproj -> G:\svn_home\new_gps\code\GPSWorld\..\..\bin\x86_vc12_unicode_debug\GPSWorld.exe
+     1>Done Building Project "G:\svn_home\new_gps\code\GPSWorld\GPSWorld.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.83
